@@ -1,0 +1,19 @@
+package br.com.juju.cursovariavel;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+
+	String x;
+	x = sc.next();
+	JOptionPane.showInputDialog("Digite um valor");
+	
+	sc.close();
+	}
+
+}

@@ -1,0 +1,17 @@
+package br.com.juju.cursovariavel;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scaner sc =new Scanner(System.in);
+
+	String x;
+	x = sc.next();
+	System.out.println("Você digitou: " + x);
+	
+	sc.close();
+	}
+
+}
